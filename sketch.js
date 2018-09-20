@@ -55,5 +55,26 @@ ellipse(250, 150, 125);//testa
 	ellipse(0, 0, 95,35);//braccio sx
 	rotate(radians(65));
 	translate(-185,-270);
+	translate(315,270);
+	rotate(radians(65));
+	ellipse(0, 0, 95,35);//braccio dx
+	rotate(radians(-65));
+	translate(-315,-270);
+	//mano sx 5 ellissi per fare le mani
+	  translate(183,310);
+  	rotate(radians(55));
+		ellipse(0, 0, 30,10);//pollice
+		rotate(radians(-55));
+		translate(-183,-310);
+		translate(168,315);
+	  rotate(radians(10));
+		ellipse(0, 0, 10,30);//1falange
+		rotate(radians(-10));
+		translate(-168,-315);
+
+    ellipse(168, 325, 25,10);//2 falange
+		ellipse(173, 330, 25,10);//3 falange
+
+
 
 }
