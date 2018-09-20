@@ -72,8 +72,24 @@ ellipse(250, 150, 125);//testa
 		rotate(radians(-10));
 		translate(-168,-315);
 
-    ellipse(168, 325, 25,10);//2 falange
-		ellipse(173, 330, 25,10);//3 falange
+		translate(173,334);
+		rotate(radians(40));
+		ellipse(0, 0, 23,10);//falange dietro
+		rotate(radians(-40));
+		translate(-173,-334);
+
+		translate(170,327);
+		rotate(radians(50));
+    ellipse(0, 0, 20,10);//2 falange
+		rotate(radians(-50));
+		translate(-170,-327);
+
+	translate(177,331);
+		rotate(radians(20));
+		ellipse(0, 0, 20,10);//3 falange
+		rotate(radians(-20));
+		translate(-177,-331);
+
 
 
 
