@@ -61,6 +61,7 @@ ellipse(250, 150, 125);//testa
 	rotate(radians(-65));
 	translate(-315,-270);
 	//mano sx 5 ellissi per fare le mani
+
 	  translate(183,310);
   	rotate(radians(55));
 		ellipse(0, 0, 30,10);//pollice
@@ -89,6 +90,10 @@ ellipse(250, 150, 125);//testa
 		ellipse(0, 0, 20,10);//3 falange
 		rotate(radians(-20));
 		translate(-177,-331);
+
+//mano destra specchiata
+	
+
 
 
 
